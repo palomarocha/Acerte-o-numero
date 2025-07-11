@@ -87,7 +87,7 @@ input::-webkit-inner-spin-button {
 }
 
 button {
-    background-color: rgb(83, 12, 165);
+    background-color: rgb(99, 21, 187);
     color: #ffffff;
     border: none;
     font-family: louis;
@@ -123,7 +123,7 @@ button:hover {
 }
 
 footer {
-    background-color: rgb(85, 17, 163);
+    background-color: rgb(99, 21, 187);
     padding: 20px;
     margin-top: auto;
 }
