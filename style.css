@@ -2,31 +2,51 @@
     font-family: louis;
     src: url(./fonts/Louis\ George\ Cafe\ Bold.ttf);
 }
+
 @font-face {
     font-family: vintage;
     src: url(./fonts/Perfectly\ Vintages\ Font\ by\ Keithzo.otf);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(160, 95, 235);
     text-align: center;
+    font-family: louis;
+}
+
+main {
+    flex: 1;
     margin-top: 220px;
 }
-h1{
+
+
+h1 {
     font-family: vintage;
     color: rgb(60, 6, 121);
     font-size: 42px;
 }
-p{
+
+p {
     font-family: louis;
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,16 +56,18 @@ p{
     margin: 0 auto;
     margin-top: 10px;
     border-radius: 5px;
-    
+
 }
-.box{
+
+.box {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-input{
+
+input {
     font-family: louis;
     font-size: 19px;
     text-align: center;
@@ -54,14 +76,17 @@ input{
     border: none;
     border-radius: 10px;
 }
-input:focus{
+
+input:focus {
     outline: 2px solid rgb(104, 11, 49);
 }
+
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button{
+input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
-button{
+
+button {
     background-color: rgb(60, 6, 121);
     color: #ffffff;
     border: none;
@@ -73,48 +98,81 @@ button{
     cursor: pointer;
     transition: ease-in-out .3s;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(85, 17, 163);
 }
-#result{
+
+#result {
     margin-top: 15px;
 }
-@media (max-width: 834px){
-    h1{
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social img {
+    width: 25px;
+}
+
+.social p {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(85, 17, 163);
+    padding: 20px;
+    margin-top: auto;
+}
+
+@media (max-width: 834px) {
+    h1 {
         font-size: 50px;
     }
-    .container{
+
+    .container {
         width: 68vw;
     }
-    .container p{
+
+    .container p {
         font-size: 28px;
-        
+
     }
-    input{
+
+    input {
         font-size: 25px;
     }
-    button{
+
+    button {
         padding: 20px;
         font-size: 19px;
         margin-top: 30px;
     }
 }
-@media (max-width: 440px){
-   h1{
+
+@media (max-width: 440px) {
+    h1 {
         font-size: 30px;
     }
-    .container{
+
+    .container {
         width: 90vw;
         margin-top: 20px;
     }
-    .container p{
+
+    .container p {
         font-size: 17px;
     }
-    input{
+
+    input {
         width: 45vw;
         margin-top: 10px;
     }
-    button{
+
+    button {
         display: flex;
         margin-top: 25px;
         width: 28vw;
