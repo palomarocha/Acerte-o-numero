@@ -36,7 +36,7 @@ main {
 
 h1 {
     font-family: vintage;
-    color: rgb(83, 12, 165);
+    color: rgb(100, 20, 190);
     font-size: 42px;
 }
 
@@ -87,7 +87,7 @@ input::-webkit-inner-spin-button {
 }
 
 button {
-    background-color: rgb(99, 21, 187);
+    background-color: rgb(100, 20, 190);
     color: #ffffff;
     border: none;
     font-family: louis;
