@@ -23,7 +23,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(160, 95, 235);
+    background-color: rgb(179, 130, 235);
     text-align: center;
     font-family: louis;
 }
@@ -87,7 +87,7 @@ input::-webkit-inner-spin-button {
 }
 
 button {
-    background-color: rgb(60, 6, 121);
+    background-color:rgb(179, 130, 235);
     color: #ffffff;
     border: none;
     font-family: louis;
